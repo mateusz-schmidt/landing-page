@@ -166,3 +166,37 @@ a {
     text-align: end;
 }
 
+.subcall {
+    width: 1000px;
+    display: flex;
+    flex: 1;
+    margin: 40px 0;
+}
+
+.boxcall {
+    background-color: #3882f6;
+    flex:1;
+    display: flex;
+    color: #f9faf8;
+}
+
+.top {
+
+}
+
+.down {
+
+}
+
+.left1 {
+    flex: 1;
+}
+
+.right1 {
+    flex: 1;
+}
+
+
+
+
+
