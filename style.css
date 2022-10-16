@@ -20,7 +20,7 @@ body {
 .hero,
 .information,
 .quote,
-.call
+.call,
 .footer {
     display: flex;
     justify-content: center;
@@ -149,7 +149,6 @@ a {
 
 .subquote {
     display: flex;
-
     flex-direction: column;
     width: 900px;
     margin: 50px 0;
@@ -164,28 +163,34 @@ a {
 
 .author {
     text-align: end;
+    font-weight: bold;
 }
 
 .subcall {
-    width: 1000px;
     display: flex;
-    flex: 1;
-    margin: 40px 0;
+    justify-content: center;
+    width: 1000px;
 }
 
 .boxcall {
     background-color: #3882f6;
+    border-radius: 5px;
     flex:1;
     display: flex;
     color: #f9faf8;
+    margin: 80px 0;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 50px;
 }
 
 .top {
-
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .down {
-
+    font-size: 16px;
 }
 
 .left1 {
@@ -194,6 +199,24 @@ a {
 
 .right1 {
     flex: 1;
+    display: flex;
+    justify-content: end;
+}
+
+.button2 {
+    border: 2px solid white ;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    cursor:pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer {
+    color: white;
+    padding: 25px 0;
 }
 
 
